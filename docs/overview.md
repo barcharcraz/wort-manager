@@ -11,3 +11,11 @@ Also, it works on linux, but you need powershell installed. It may also work on 
 * avoids complicated multi-system packages, prefers to have one recipie per system
 * keeps rebuilds during development to a minimum
 * has methods to check if a recipie is out of date based on an upstream source (in progress)
+
+## Todo List
+
+- general package management commands
+- update checking
+- package removal (this should probably be global)
+- CI (use virtual machines for this)
+- package signing (this is hard as upstream rarely signs things)

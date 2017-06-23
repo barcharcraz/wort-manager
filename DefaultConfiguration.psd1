@@ -1,5 +1,4 @@
 @{
     LinkType='SymbolicLink'
-
-    
+    Base = "~/.worts"
 }

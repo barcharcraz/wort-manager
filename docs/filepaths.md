@@ -27,7 +27,7 @@ This is the install tree, will be documented more once multi-config packages are
 The build tree, we build packages here. The tree should look like
 - build
     - package_name
-        - package_version
+        - package_version-package_varient
 
 #### source
 This is where we keep the sources for our packages. Quite handy while debugging. This is seperate from build because we prefer debug buids, however if that's not possible then the source should go in the build directory. That is to say that there should never be build artifacts in this directory
