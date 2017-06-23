@@ -2,6 +2,28 @@
 
 This document has information for package creators
 
+# Why not X
+
+There's lots of package managers out there for C++, I'm going to complain about all of them
+* vcpkg:
+    
+    Cmake is annoying for packages that don't use cmake, having a native component to the package manager is also annoying, Does not work on linux
+
+* build2:
+
+    totally new build system. Very few packages
+
+* conan:
+
+    I like conan, however package recipies are quite long and annoying to write. And the package development process is slow. I don't like the GUID named folders.
+
+* hunter:
+
+    fairly cmake specific, requires changes to consuming package's build system
+
+* nuget:
+
+    complex, you need to know a fair bit about msbuild
 
 # Standard Variables
 
